@@ -1,0 +1,131 @@
+.logo {
+    background-color: azure;
+    width: "140px";
+    align-items: center;
+
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFBABA;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #9D3C72;
+    font-family: 'Roboto Serif', serif;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #9D3C72;
+}
+
+.topnav a.active {
+    background-color: #7B2869;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.index {
+    margin-left: 30px;
+}
+
+.design {
+    display: inline;
+    padding-right: 5px;
+    background-image: linear-gradient(20deg, #7B2869 8%, #9D3C72 40%, #C85C8E 77%, #FFBABA 91%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.head {
+    text-size-adjust: 80px;
+    display: inline;
+    font-size: 80px;
+}
+
+h1 {
+    display: flex;
+    color: #7B2869;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    size: 50px;
+}
+
+h3 {
+    display: flex;
+    font-family: 'EB Garamond', serif;
+    color: #9D3C72;
+}
+
+p {
+    display: flex;
+    font-family: 'EB Garamond', serif;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.img {
+    display: inline;
+    padding: 40px 40px;
+    border-radius: 100px;
+}
+
+.about-img {
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.about-para {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: 'EB Garamond', serif;
+}
+
+.contact {
+    margin-left: 30px;
+    font-family: 'EB Garamond', serif;
+}
+
+.table {
+    margin: 50px 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2
+}
+
+.button {
+    color: #fff;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 500;
+    background-color: #7B2869;
+}
