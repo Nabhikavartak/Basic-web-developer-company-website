@@ -129,3 +129,6 @@ p {
     font-weight: 500;
     background-color: #7B2869;
 }
+form{
+    align-items: center;
+}
